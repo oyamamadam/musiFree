@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.splash	{
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+	background: url("../img/splash.jpg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    margin-top:10px;
+}
+
+.mflogo {
+    width: 180px;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 10px;
+    color: #FF0E38;
+    font-weight: 600;
+}
+
+.second-title   {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin: 10px 32px;
+    color: #393939;
+}
+
+.btn-home   {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 55px;
+    background-color: #FF0E4F;
+    font-size: 13pt;
+    /*line-height: 64px;*/
+    text-transform: initial;
+	backface-visibility: hidden;
+}
+
+.home-bar   {
+    text-align: center;
+    font-weight: 600;
+    background-color: gray;
+    color: white;
+    padding: 10px 10px;
+    /*margin: 40px 10px;*/
+	margin: 15px 10px;
+}
+
+.getpointsbox	{
+	position: absolute;
+    right: 0;
+    background-color: #FF0E4F;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+	width: 150px;
+    text-align: center;
+	top: 15px;
+}
+
+.pointsbox	{
+	position: absolute;
+	left: 35px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    top: 15px;
+    width: 115px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.youneed	{
+	text-align: center;
+    padding: 13px;
+    font-size: 10pt;
+    background-color: #F4F4F4;
+    height: 45px;
+    margin-top: -65px;
+}
+
+select  {
+    display:inline;
+}
+
+.middle {
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.round-button {
+        display: block;
+    width: 160px;
+    height: 160px;
+    line-height: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    background: #FF0E4F;
+    box-shadow: 0 0 3px gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+.round-button:hover {
+    background: #262626;
+}
+
+
+.form-fans  {
+    width: 70%;
+    text-align: center;
+}
+
+input    {
+    text-align: center;
+}
+
+.lab {
+    font-size: 11pt;
+    text-align: center;
+    margin: 10px 5px -10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #6B6B6B;
+}
+
+#ig-pic  {
+    outline-offset: 0px;
+    width: 100px;
+    border-radius: 100px;
+    border: 4px #FF0F50 dashed;
+}
+
+.usr-name   {
+    font-size: 15pt;
+    text-align: center;
+    margin: 0px 5px -10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FF0F50;
+}
+
+.current    {
+    font-size: 10pt;
+    text-align: center;
+    margin: 15px 5px -10px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #686868;
+}
+
+.num    {
+    font-size: 13pt;
+    color: #FF0F50;
+}
+
+.greyy {
+    background-color: #EEEEEE !important;
+    text-align:center;
+    padding: 9px 0 6px 0px;
+}
+
+.image_picker_selector img {
+    height: 125px;
+}
+
+#page2  {
+    display: none;
+}
+
+#page3  {
+    display: none;
+}

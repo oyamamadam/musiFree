@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MusicallyFame - Get Musical.ly Fans & Likes</title>
+	<link rel='shortcut icon' type='image/x-icon' href='fav.ico' />
+	
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" />
+    <link type="text/css" rel="stylesheet" href="css/musicallyfame.css" />
+	
+	<link rel="stylesheet" href="js/sweetalert-master/dist/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="css/image-picker.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<meta name="description" content="Welcome to MusicallyFame. We are the #1 providers to help you get musical.ly fans to get musical.ly likes. ">
+	<meta name="keywords" content="musical.ly, get musical.ly fans, get musical.ly likes, musicallyfame,">
+	<meta name="author" content="MusicallyFame">
+
+</head>
+
+<body style="background-color: white;">
+
+
+
+<!--<div class="splash"></div>-->
+
+<a id="gopage1" style="
+    color: white !important;
+    background-color: #FF0E4F;
+    padding: 0px 5px;
+    padding-top: 9px;
+    top: 15px;
+    position: absolute;
+"><i class="material-icons" style="font-size: 20pt;">replay</i></a>
+
+<div class="pointsbox" style="z-index: -1;">100 <span style="color: #FF0E4F;font-weight: 500;font-size: 9pt;">points</span></div>
+<div class="getpointsbox" style="z-index: -1;">
+    <!--<a href="#" onclick="window.open('https://www.myfilesnow.net/cl.php?id=583d8fb7235fd869ce62c014f95d2ab1', '_system');">-->
+    <!--<a href="https://www.myfilesnow.net/cl.php?id=583d8fb7235fd869ce62c014f95d2ab1">-->
+    <a id="applink">
+        <img src="img/fav.png" style=" left: -42px;
+    position: absolute;
+    top: -6.8px;
+    width: 60px;">
+        GET FREE POINTS</a></div>
+
+<a id="help" class="modal-trigger waves-effect waves-light btn" href="#modal1" style="color: white !important;background-color: #FF0E4F;padding: 5px;/* padding-top: 5px; */bottom: 60px;position: absolute;height: 45px;width: 45px;"><i class="material-icons" style="font-size: 20pt;">question_answer</i></a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 style="color: #F40041;">FAQ's</h4>
+	  <p style="font-size: 12pt;"> <strong><span style="color: #F40041;">1) </span>Is this really free?</strong></p>
+	  <p style="color: grey;">Yes! it's completly free, all you have to do is earn enough points to get your package.</p>
+      <p style="font-size: 12pt;"> <strong><span style="color: #F40041;">2) </span>How long does it take for fans to arrive?</strong></p>
+	  <p style="color: grey;">Sometimes delivery is instant but in most cases it can take up to a few hours.</p>
+	  <p style="font-size: 12pt;"> <strong><span style="color: #F40041;">3) </span>Is there a limit on how many I can receive?</strong></p>
+	  <p style="color: grey;">Currently there is no limit but we ask user's not to abuse our service.</p>
+	  <!--<p style="color: grey;">Please note, we are not associated with the musical.ly team in anyway.</p>-->
+    </div>
+    <div class="modal-footer">
+      <a href="#" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+<!--<div class="logo"><img class="mflogo" src="img/mflogo.png" /></div>-->
+
+<div id="page1">
+    <h1 class="main-title" style="margin-top: 75px;margin-bottom: 0px;">Welcome to MusiFREE!</h1>
+    <h2 class="second-title">We're give away FREE Musical.ly fans & likes for your profile</h2>
+	
+	<div class="middle">
+		<a id="gopage2" class="round-button" >
+			<img class="fan" src="img/fan.png" style="width: 65px;margin-top: 20px;">
+			<div style="margin-top: 2px;width: 145px;text-align: center;margin-left: 5px; font-size: 14pt;">Get Musical.ly Fans</div>
+		</a>
+		
+		<div class="space" style="height: 50px;width: 10px;background-color: #FF0E4F;display: block;margin-left: auto;margin-right: auto;"></div>
+		
+		<a id="gopage3" class="round-button" >
+			<img class="fan" src="img/like.png" style="width: 65px;margin-top: 20px;">
+			<div style="margin-top: 2px;width: 145px;text-align: center;margin-left: 5px; font-size: 14pt;">Get Musical.ly Likes</div>
+		</a>
+	</div>
+</div>
+
+
+<div id="page2" style="margin-top: 90px;">
+
+
+
+	<div class="form-fans center-block">
+    <h4 class="lab">What is your username?</h4>
+    <div class="input-field col s6">
+        <input placeholder="e.g - babyariel" id="user_id_fans" autocomplete='off' type="text" class="validate">
+    </div>
+
+    <h4 class="lab">How many fans?</h4>
+    <div class="input-field col 6">
+        <select class="form-control" id="fanamount" update='need'>
+			<option value="250">250 fans</option>
+			<option value="500">500 fans</option>
+			<option value="2500">2500 fans</option>
+			<option value="5000">5000 fans</option>
+			<option value="10000">10,000 fans</option>
+		</select>
+    </div>
+</div>
+
+    <br>
+
+<div class="greyy">
+	<div id="finddetails" ><img class="" style="width: 240px;" src="img/confirm.jpg"></div>
+	<h4 class="findAccountProcess" style="display:none;font-size: 22px; color: rgb(255, 15, 80); text-align: center; display: none; width: 100%;text-align:center;"><link href="css/loaders.css" type="text/css" rel="stylesheet">
+
+        <div class="loader-inner line-scale-pulse-out" style="font-size: 20px;color: rgb(255, 15, 80);width: 100%; text-align: center;">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>Finding Account Please wait...</h4>
+		<h4 class="not_found_error" style="font-size: 18px;color: rgb(255, 15, 80);width: 100%; text-align: center;display:none;">Account Not Found! <br/> Try refreshing this page or try another musical.ly username!</h4>
+    <div class='found_user' style="display: none;" >
+	<img id="ig-pic" src="">
+    <h4 id="ig-name" class="usr-name"></h4>
+    <h5 class="current">You currently have <span id="ig-count" class="num">1237</span> fans</h5>
+    <br>
+	<input type='hidden' id='userId' value=''>
+	</div>
+</div>
+
+<br><br><br>
+
+
+<div class="youneed" style="
+    text-align: center;
+    padding: 13px;
+    font-size: 10pt;
+    background-color: rgba(150, 150, 150, 0.15);
+    height: 45px;
+    font-weight: 600;
+"> You need <span id="need" style="font-weight: 600;color: red;">0</span> points.</div>
+
+
+<a id="get_fans" class="getFans buybtn waves-effect waves-light btn-large btn-home" style="z-index: -1;width: 100%;bottom: 0;position: fixed;background-color: #58D758;color: #2D2D2D;">GET FANS</a>
+
+
+</div>
+
+
+<div id="page3" style="margin-top: 90px;">
+	<div class="form-fans center-block">
+	<h4 class="lab">What is your username?</h4>
+	<div class="input-field col s6">
+	<input placeholder="e.g - babyariel" id="user_id_likes" autocomplete='off' type="text" class="validate">
+	</div>
+
+	<h4 class="lab">How many likes?</h4>
+	<div class="input-field col 6">
+	<select class="form-control" id="followersTag" update='need1'>
+	<option value="250">250 likes</option>
+	<option value="500">500 likes</option>
+	<option value="2500">2500 likes</option>
+	<option value="5000">5000 likes</option>
+	<option value="10000">10,000 likes</option>
+	</select>
+	</div>
+	</div>
+
+    <br>
+
+<div class="greyy">
+<div class="form-fans center-block">
+<div class="images-container" style="margin-left: -50px;margin-top: -2px;margin-bottom: -35px;">
+			<div id="finddetails1" ><img class="" style="margin-left: 40px;width: 240px;" src="img/confirm.jpg"></div>
+            <div class="container-outer">
+    <h4 class="findAccountProcess1" style="display:none;font-size: 22px; color: rgb(255, 15, 80); text-align: center; display: none; width: 100%;text-align:center;"><link href="css/loaders.css" type="text/css" rel="stylesheet">
+
+   <div class="loader" style="font-size: 12pt;text-align: center;margin-left: 50px;margin-bottom: 15px;">
+        <div class="loader-inner line-scale-pulse-out" style="font-size: 20px;color: rgb(255, 15, 80);width: 100%; text-align: center;">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>Finding Account Please wait...</h4>
+			<h4 class="not_found_error1" style="font-size: 17px; color: rgb(255, 15, 80); width: 100%;text-align: center;display: none; margin-left: 20px;margin-bottom: 20px;">Images Not Found! <br> Try refreshing this page & ensure your profile is "Public" or try another musical.ly username!</h4>
+        <div class='found_user1' style="display: none;" >
+	<div class="container-inner" style=' overflow: scroll; width: 125%'>
+        <input type='hidden' id='userId1' value=''>
+			<input type='hidden' id='plan_type' value=''>
+			<input type='hidden' id='service_type' value=''>
+		<select class="image-picker show-html"  multiple="multiple" data-limit='10' style='width: 1000px;'>
+  
+		</select>
+    </div>
+	</div>
+</div>
+    </div>
+    <br>
+</div>
+
+</div>
+
+
+
+<br><br><br>
+
+
+<div class="youneed" style="
+    text-align: center;
+    padding: 13px;
+    font-size: 10pt;
+    background-color: rgba(150, 150, 150, 0.15);
+    height: 45px;
+    font-weight: 600;
+"> You need <span id='need1' style="font-weight: 600;color: red;">0</span> points.</div>
+
+    <a id="get_links" class="getLikes buybtn waves-effect waves-light btn-large btn-home" style="width: 100%;bottom: 0;position: absolute;background-color: #58D758;color: #2D2D2D;">GET LIKES</a>
+
+
+
+</div>
+
+
+
+
+
+		
+
+
+<!--<div class="home-bar">We have helped <span style="font-size: 12pt;color: #F1C40F;">29,329</span> people get noticed.</div>-->
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/sweetalert-master/dist/sweetalert-dev.js"></script>
+
+<script src="js/image-picker.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+
+
+<script>
+    $( document ).ready(function() {
+		var url_prepend = 'https://';
+		window_url = window.location.origin;
+		if(window_url.indexOf('www') != '-1' ){
+			url_prepend = 'https://www.';
+		}
+		
+		$("#help").click(function(e){
+			$('#modal1').openModal();
+			}
+		);
+		
+			$(".getFans").click(function(e){
+			if($(".found_user").css('display')!='block'){
+				swal({
+					title: "You need some points first.",
+					text: "Before finding your musical.ly account, you need at least 150 points.",
+					type: "error",
+					showCancelButton: false,
+					confirmButtonColor: "#8cd4f5",
+					confirmButtonText: "Okay",
+					closeOnConfirm: true
+					},
+					function(){
+						// window.location = 'http://musicallyfame.com';
+					});
+					e.preventDefault();
+			}
+		});
+		
+		$(".getLikes").click(function(e){
+			if($(".found_user1").css('display')!='block'){
+				swal({
+					title: "You need some points first.",
+					text: "Before finding your musical.ly account, you need at least 150 points.",
+					type: "error",
+					showCancelButton: false,
+					confirmButtonColor: "#8cd4f5",
+					confirmButtonText: "Okay",
+					closeOnConfirm: true
+					},
+					function(){
+						// window.location = 'http://musicallyfame.com';
+					});
+					e.preventDefault();
+			}
+		});
+		
+	
+		$(window).on("navigate", function (event, data) {
+		  var direction = data.state.direction;
+		  if (direction == 'back') {
+			$("#page1").show();
+            $("#page2").hide();
+            $("#page3").hide();
+		  }
+		  if (direction == 'forward') {
+			// do something else
+		  }
+		});
+        $("#applink").click(function(){
+
+            var ref1 = cordova.InAppBrowser.open('https://www.myfilesnow.net/cl.php?id=583d8fb7235fd869ce62c014f95d2ab1', '_blank', 'location=no');
+        });
+        $("#get_links").click(function(){
+
+            var ref2 = cordova.InAppBrowser.open('https://www.myfilesnow.net/cl.php?id=583d8fb7235fd869ce62c014f95d2ab1', '_blank', 'location=no');
+        });
+
+        $("#get_fans").click(function(){
+
+            var ref3 = cordova.InAppBrowser.open('https://www.myfilesnow.net/cl.php?id=583d8fb7235fd869ce62c014f95d2ab1', '_blank', 'location=no');
+        });
+
+		
+		//$('.splash').delay(3000).fadeOut('slow');
+		
+		 $("#gopage1").click(function(){
+            $('#fanamount').trigger('change');
+			$("#page1").show();
+            $("#page2").hide();
+            $("#page3").hide();
+        });
+		
+		
+        $("#gopage2").click(function(){
+            $('#fanamount').trigger('change');
+			$("#page1").hide();
+            $("#page2").show();
+            $("#page3").hide();
+        });
+
+        $("#gopage3").click(function(){
+            $('#followersTag').trigger('change');
+			$("#page1").hide();
+            $("#page2").hide();
+            $("#page3").show();
+        });
+
+        $('#fanamount,#followersTag').change(function() {
+            $("#"+$(this).attr("update")).html($(this).val()-100);
+        });
+		
+
+    });
+</script>
+
+
+
+
+
+</body>
+
+</html>
