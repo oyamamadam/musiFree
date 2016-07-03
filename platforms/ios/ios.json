@@ -30,20 +30,20 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.musiFREE"
-        },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.musiFREE"
+            "PACKAGE_NAME": "com.musiFANS"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.musiFREE"
+            "PACKAGE_NAME": "com.musiFANS"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.musiFREE"
+            "PACKAGE_NAME": "com.musiFANS"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.musiFREE"
+            "PACKAGE_NAME": "com.musiFANS"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.musiFANS"
         }
     },
     "dependent_plugins": {},
@@ -91,10 +91,10 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
         "cordova-plugin-console": "1.0.3",
         "cordova-plugin-device": "1.1.2",
         "cordova-plugin-inappbrowser": "1.4.0",
-        "cordova-plugin-splashscreen": "3.2.2"
+        "cordova-plugin-splashscreen": "3.2.2",
+        "cordova-plugin-whitelist": "1.2.2"
     }
 }

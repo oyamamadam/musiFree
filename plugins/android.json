@@ -23,12 +23,5 @@
             "PACKAGE_NAME": "com.musiFREE"
         }
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "com.musiFREE"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.musiFREE"
-        }
-    }
+    "dependent_plugins": {}
 }
